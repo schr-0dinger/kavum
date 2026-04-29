@@ -33,7 +33,7 @@
       <section class="legal-hero">
         <p class="eyebrow">PrescoRx legal</p>
         <h1>Privacy Policy</h1>
-        <p class="legal-updated">Last updated: April 26, 2026</p>
+        <p class="legal-updated">Last updated: April 29, 2026</p>
       </section>
 
       <section class="legal-card-list">
@@ -54,27 +54,21 @@
           <p>
             I collect the details you provide to set up and use PrescoRx on Android,
             including your name, email address, medical registration number,
-            qualification, specialization, clinic details, and phone number.
+            qualification, specialization, clinic details, and phone number. If you
+            subscribe to PrescoRx Pro, I also store your subscription status and
+            expiry date to manage your access.
           </p>
         </article>
 
         <article class="legal-card">
-          <h2>Prescription and Signature Data</h2>
+          <h2>Prescription and Patient Data</h2>
           <p>
-            I store the prescription records you create. If you capture or choose a
-            signature image, that image is saved in app storage on your Android
-            device and used to place your signature on generated prescriptions.
-          </p>
-        </article>
-
-        <article class="legal-card">
-          <h2>Patient Data</h2>
-          <p>
-            PrescoRx allows doctors to create and store prescriptions that may include
-            patient information such as name, age, gender, diagnosis, and prescribed
-            medications. This data is entered by the doctor and handled as <strong>sensitive personal data</strong>. It
-            is stored securely using Firebase services and is not used for any purpose other than providing core app
-            functionality.
+            PrescoRx stores the prescriptions you create, which may include patient
+            information such as name, age, gender, diagnosis, medicines, and
+            consultation notes. This data is treated as <strong>sensitive personal data</strong>
+            and is <strong>encrypted end-to-end using AES-256-GCM</strong> on your device before
+            being stored in the cloud. Your signature image and clinic logo are saved
+            in app storage on your device and used to generate prescriptions.
           </p>
         </article>
 
@@ -83,21 +77,23 @@
           <p>
             Your information is used to authenticate your account, complete your
             doctor profile, support your consultation documentation workflow,
-            generate and manage prescriptions, and operate core app features. I do not sell your personal data.
+            generate and manage prescriptions, verify and manage your Pro
+            subscription, and operate core app features. I do not sell your personal data.
           </p>
         </article>
 
         <article class="legal-card">
           <h2>Google and Other Service Providers</h2>
           <p>
-            PrescoRx uses Firebase (by Google) for authentication and secure storage of
-            prescription and profile data. Google Sign-In may be used for account access.
-            Google Play Billing is used for in-app purchases. AdMob is used to display
-            non-personalized advertisements. These services process data in accordance
-            with their own privacy policies.
+            PrescoRx relies on Firebase for authentication and encrypted prescription
+            storage, Firebase Cloud Functions for subscription verification with Google
+            Play, Google Sign-In for optional account access, Google Play Billing for
+            subscriptions, and AdMob to show non-personalized ads in the free version
+            of the app. These services process data in accordance with their own
+            privacy policies.
             <br><br>
-            I do not sell or share personal or patient data with AdMob or any other third
-            parties for advertising or marketing purposes.
+            I do not sell or share personal or patient data with AdMob or any other
+            third parties for advertising or marketing purposes.
           </p>
         </article>
 
@@ -105,9 +101,10 @@
           <h2>Data Storage and Retention</h2>
           <p>
             Prescription and profile data are retained until you delete them or
-            delete your account. Deleting your account removes your doctor profile,
-            prescriptions, and locally saved signature files associated with the
-            app.
+            delete your account. Subscription status data is updated automatically
+            when your subscription renews or expires. Deleting your account removes
+            your doctor profile, prescriptions, and locally saved signature and logo
+            files associated with the app.
           </p>
         </article>
 
@@ -119,17 +116,20 @@
             <br>• Request the correction or completion of inaccurate or incomplete data.
             <br>• Request the erasure of your data.
             <br>• Withdraw your consent at any time.
-            <br>To exercise these rights, please contact me via the support email listed below.
+            <br><br>From the app you can sign out or permanently delete your account and
+            all associated data. Android permission choices can be managed at any time
+            from Settings › Apps › PrescoRx › Permissions. To exercise further rights,
+            contact me at support.prescorx@gmail.com.
           </p>
         </article>
 
         <article class="legal-card">
           <h2>Security</h2>
           <p>
-            I use industry-standard security measures including encrypted data transmission
-            (HTTPS) and secure backend infrastructure provided by Firebase. All sensitive data
-            is encrypted both in transit and <strong>at rest</strong>. Access controls ensure that each doctor
-            can only access their own records.
+            Sensitive prescription and patient data are encrypted end-to-end on your
+            device using <strong>AES-256-GCM</strong> before being stored in the cloud. Data is
+            transmitted over HTTPS, and access controls ensure that each doctor can
+            only access their own records.
           </p>
         </article>
 
