@@ -194,20 +194,6 @@
       });
     })();
   </script>
-  <script>
-    (function(){
-      var html=document.documentElement;
-      var btn=document.getElementById("theme-toggle");
-      btn.addEventListener("click",function(){
-        var next=html.dataset.theme==="dark"?"light":"dark";
-        html.dataset.theme=next;
-        localStorage.setItem("kavum-theme",next);
-      });
-      window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",function(e){
-        if(!localStorage.getItem("kavum-theme")){html.dataset.theme=e.matches?"dark":"light";}
-      });
-    })();
-  </script>
 </body>
 
 </html>
